@@ -1,0 +1,72 @@
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 70.5%;
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column ;
+  background: url("nature.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color:rgba(255,255,255,0.819);
+}
+h2{
+  text-transform: uppercase;
+  text-align: center;
+  font-family: Monospace;
+  line-height: 3;
+  font-size: 17px;
+  letter-spacing: 4px;
+  text-shadow:3px 3px 5px #000 ;
+}
+.clock {
+ display: flex;
+ 
+}
+.clock div{
+  margin: 5px;
+ position: relative;
+}
+.clock span{
+  background: slateblue;
+  width: 70px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: .846;
+  text-shadow: 2px 2px 4px #000;
+  font-size: 30px;
+}
+.clock .text{
+  height: 30px;
+  font-size: 10px;
+  letter-spacing: 3px;
+  background: darkolivegreen;
+  opacity: .846;
+  text-shadow: none;
+  text-transform: uppercase;
+}
+.clock #amPm{
+  position: absolute;
+  bottom: 0;
+  width:45px ;
+  height: 30px;
+  font-size: 15px;
+  background: chocolate;
+  text-shadow: none;
+}
